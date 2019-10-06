@@ -1,0 +1,44 @@
+/* gray: #757C87
+dark blue: #18193D */
+
+html, body {margin:0; padding:0}
+
+@font-face {
+    font-family: nature;
+    src: url(nature.ttf);
+}
+
+@font-face {
+    font-family: brooklynbold;
+    src: url(brooklynbold.ttf);
+}
+
+@font-face {
+    font-family: calluna;
+    src: url(calluna.ttf);
+}
+
+/* headers */
+.header {padding-top: 30px; padding-right: 50px; float: right;}
+.headerPoems {padding-bottom: 70px; text-align: center;}
+.btnheader {font-size: 20px; color: black; font-style: italic;
+            padding-bottom: 10px; padding-left: 20px; padding-right: 20px; border: none;}
+.btnheader:hover {text-decoration: underline;}
+
+
+
+ /* home */
+#titleHome {font-family:nature; text-align:center; font-size:100px; padding-top:150px; padding-bottom:60px; clear: both;}
+#author {text-align: center; font-family: nature; font-size: 25px; line-height: 27px;}
+#intro {text-align: center; font-size: 12px; line-height: 27px; padding-top:180px}
+.goTo {text-decoration:none; font-family:nature; font-size:80px;  padding-bottom: 70px; color:#757C87}
+
+/* content */
+#title {font-family:nature; text-align:center; font-size:100px; padding-top:100px; padding-bottom:60px; clear: both;}
+.divider {text-align:center; padding:50px; color:#18193D}
+.poem {text-align:left; margin-left:30%; font-size:17px; color:#18193D; line-height:25px;}
+.poemBig {text-align:left; margin-left:23%; font-size:17px; color:#18193D; line-height:25px;}
+.poemTitle {text-align: center; font-size: 17px; color:#18193D; line-height:25px;}
+.postTitle {text-align: center; font-size:30px; line-height:80px; color:#18193D;}
+.postDate {text-align: center; font-family: calluna; font-size:20px; padding-bottom:30px; color:#18193D;}
+.post {text-align: center; margin-left: 15%; margin-right: 15%; font-family: calluna; font-size:17px; color:#18193D; line-height:30px;}
